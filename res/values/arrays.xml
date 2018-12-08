@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="entriesSpeedSpaceship">
+        <item name="0">Slow</item>
+        <item name="1">Fast</item>
+    </string-array>
+    
+    <string-array name="valuesSpeedSpaceship">
+        <item name="0">0</item>
+        <item name="1">1</item>
+    </string-array>
+    
+    <string-array name="entriesSpeedObstacles">
+        <item name="0">Slow</item>
+        <item name="1">Fast (Triple Score)</item>
+    </string-array>
+    
+    <string-array name="valuesSpeedObstacles">
+        <item name="0">0</item>
+        <item name="1">1</item>
+    </string-array>
+</resources>

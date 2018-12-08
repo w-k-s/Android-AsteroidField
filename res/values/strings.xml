@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, BouncingBallActivity!</string>
+    <string name="app_name">Asteroid Field</string>
+    <string name="txtButtonPlay">New Game</string>
+    <string name="txtButtonSettings">Settings</string>
+    <string name="txtButtonAbout">About</string>
+
+</resources>

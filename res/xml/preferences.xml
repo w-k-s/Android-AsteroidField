@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+	<PreferenceCategory android:title="Game play">
+        <ListPreference 
+           	android:key="speed_spaceship"
+           	android:title="Spaceship Speed"
+           	android:summary="Set the speed of the spaceship."
+           	android:defaultValue="1"
+           	android:entries="@array/entriesSpeedSpaceship"
+           	android:entryValues="@array/valuesSpeedSpaceship"
+            />
+        
+        <ListPreference
+            android:key="speed_obstacles"
+            android:title="Asteroid Speed"
+            android:summary="Set the speed of the asteroids."
+            android:defaultValue="0"
+            android:entries="@array/entriesSpeedObstacles"
+            android:entryValues="@array/valuesSpeedObstacles"
+            />
+      </PreferenceCategory>
+      <PreferenceCategory 
+          android:title="Sound"
+          >
+          <CheckBoxPreference
+              android:key="sound"
+              android:title="Sound Effects"
+              android:summary="Switch sound effects on/off."
+              android:defaultValue="true"
+              />
+      </PreferenceCategory>  
+</PreferenceScreen>
